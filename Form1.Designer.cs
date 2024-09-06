@@ -39,7 +39,7 @@
             this.dgvArticulosLista.Name = "dgvArticulosLista";
             this.dgvArticulosLista.Size = new System.Drawing.Size(775, 261);
             this.dgvArticulosLista.TabIndex = 0;
-            this.dgvArticulosLista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+          
             // 
             // Mercado
             // 
@@ -47,9 +47,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvArticulosLista);
-            this.Name = "Mercado";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "MercadoGen";
+            this.Text = "Articulo";
+            this.Load += new System.EventHandler(this.Mercado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulosLista)).EndInit();
             this.ResumeLayout(false);
 

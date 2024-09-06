@@ -17,16 +17,12 @@ namespace Mercado
             InitializeComponent();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void Mercado_Load(object sender, EventArgs e)
         {
            
                 ArticuloService articulo = new ArticuloService();
-                dgvArticulosLista.DataSource = articulo.listar();
+                dgvArticulosLista.DataSource = articulo.listar(); 
+            //dvgArticulosLista.DataSource = articulo.listar();
            
         }
     }
