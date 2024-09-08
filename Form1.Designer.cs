@@ -39,7 +39,7 @@
             this.dgvArticulosLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvArticulosLista.Location = new System.Drawing.Point(0, 0);
             this.dgvArticulosLista.Name = "dgvArticulosLista";
-            this.dgvArticulosLista.Size = new System.Drawing.Size(578, 449);
+            this.dgvArticulosLista.Size = new System.Drawing.Size(578, 331);
             this.dgvArticulosLista.TabIndex = 0;
             this.dgvArticulosLista.SelectionChanged += new System.EventHandler(this.dgvArticulosLista_SelectionChanged);
             // 
@@ -47,7 +47,7 @@
             // 
             this.pbxArticulo.Location = new System.Drawing.Point(584, 0);
             this.pbxArticulo.Name = "pbxArticulo";
-            this.pbxArticulo.Size = new System.Drawing.Size(312, 449);
+            this.pbxArticulo.Size = new System.Drawing.Size(312, 331);
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 1;
             this.pbxArticulo.TabStop = false;
