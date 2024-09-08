@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             this.dgvArticulosLista = new System.Windows.Forms.DataGridView();
+            this.pbxArticulo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulosLista)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvArticulosLista
@@ -37,20 +39,31 @@
             this.dgvArticulosLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvArticulosLista.Location = new System.Drawing.Point(0, 0);
             this.dgvArticulosLista.Name = "dgvArticulosLista";
-            this.dgvArticulosLista.Size = new System.Drawing.Size(775, 261);
+            this.dgvArticulosLista.Size = new System.Drawing.Size(578, 449);
             this.dgvArticulosLista.TabIndex = 0;
-          
+            this.dgvArticulosLista.SelectionChanged += new System.EventHandler(this.dgvArticulosLista_SelectionChanged);
+            // 
+            // pbxArticulo
+            // 
+            this.pbxArticulo.Location = new System.Drawing.Point(584, 0);
+            this.pbxArticulo.Name = "pbxArticulo";
+            this.pbxArticulo.Size = new System.Drawing.Size(312, 449);
+            this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxArticulo.TabIndex = 1;
+            this.pbxArticulo.TabStop = false;
             // 
             // Mercado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(896, 450);
+            this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulosLista);
-            this.Name = "MercadoGen";
+            this.Name = "Mercado";
             this.Text = "Articulo";
             this.Load += new System.EventHandler(this.Mercado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulosLista)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -58,6 +71,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvArticulosLista;
+        private System.Windows.Forms.PictureBox pbxArticulo;
     }
 }
 

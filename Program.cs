@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
+
 namespace Mercado
 {
-    internal static class Program
+    static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
@@ -18,6 +19,7 @@ namespace Mercado
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Mercado());
+            
         }
     }
 }

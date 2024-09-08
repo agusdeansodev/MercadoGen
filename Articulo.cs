@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mercado
 {
-    class Articulo
+    public class Articulo
     {
         public string codigoArticulo { get; set; }
         public string nombre { get; set; }
@@ -15,6 +15,7 @@ namespace Mercado
         public string marca { get; set; } //(seleccionable de una lista desplegable).
         public string categoria { get; set; } //(seleccionable de una lista desplegable.
         public int precio { get; set; }
+        public string URLimagen {  get; set; }
   
     }
 }
