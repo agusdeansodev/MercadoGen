@@ -1,0 +1,6 @@
+C:\Users\HP\source\repos\Mercado\Dominio\bin\Debug\Dominio.dll
+C:\Users\HP\source\repos\Mercado\Dominio\bin\Debug\Dominio.pdb
+C:\Users\HP\source\repos\Mercado\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Mercado\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Mercado\Dominio\obj\Debug\Dominio.dll
+C:\Users\HP\source\repos\Mercado\Dominio\obj\Debug\Dominio.pdb
